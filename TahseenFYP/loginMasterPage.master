@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="loginMasterPage.master.cs" Inherits="loginMasterPage" %>
+
+<html>
+<head runat="server">
+    <title>Login</title>
+    <link href="CSS/StyleSheet.css" rel="stylesheet" />
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            <header>
+                <asp:Image ID="logo" runat="server" ImageUrl="~/imgs/Logo.png" Height="82px" Width="48px" />
+
+            </header>
+        </asp:ContentPlaceHolder>
+        
+        <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
+            <section>
+                <nav id="loginnav">
+
+                </nav>
+  
+                <article id="loginarticle">
+                </article>
+            </section>
+        </asp:ContentPlaceHolder>
+
+        <asp:ContentPlaceHolder id="ContentPlaceHolder3" runat="server">
+            <footer>
+
+            </footer>
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

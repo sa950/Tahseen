@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="indexMasterPage.master.cs" Inherits="indexMasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Tahseen</title>
+    <link href="CSS/StyleSheet.css" rel="stylesheet" />
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            <header>
+                <asp:Image ID="logo" runat="server" ImageUrl="~/imgs/Logo.png" Height="82px" Width="48px" />
+
+            </header>
+        </asp:ContentPlaceHolder>
+        
+        <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
+            <section>
+
+            </section>
+        </asp:ContentPlaceHolder>
+
+        <asp:ContentPlaceHolder id="ContentPlaceHolder3" runat="server">
+            <footer>
+
+            </footer>
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
