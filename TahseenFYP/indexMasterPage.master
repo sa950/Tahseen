@@ -20,7 +20,7 @@
         
         <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
             <section>
-
+                <asp:Button ID="Button1" runat="server" Text="Button" />
             </section>
         </asp:ContentPlaceHolder>
 
